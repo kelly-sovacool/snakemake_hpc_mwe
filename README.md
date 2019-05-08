@@ -29,5 +29,5 @@ This example uses the pbs-torque profile, but can be modified to use slurm inste
 
 ## Further reading
 
-Snakemake documentation: https://snakemake.readthedocs.io/en/stable/index.html
-Snakemake configuration profiles: https://github.com/Snakemake-Profiles/doc
+- Snakemake documentation: https://snakemake.readthedocs.io/en/stable/index.html
+- Snakemake configuration profiles: https://github.com/Snakemake-Profiles/doc
