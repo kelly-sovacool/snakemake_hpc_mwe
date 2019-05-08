@@ -1,4 +1,4 @@
-#PBS -N optifit		## Name of the job for the scheduler
+#PBS -N myworkflow ## Name of the job for the scheduler
 #PBS -A pschloss_fluxod ## name of the allocation (who is paying for the compute time)
 #PBS -q fluxod            ## name of the queue to submit the job to. Will match the suffix on allocation name
 #PBS -l procs=1,pmem=1GB,walltime=1:00:00    ## resource reservation  max walltime = 672 hours
