@@ -1,0 +1,12 @@
+"__default__": {
+    "account": "pschloss_fluxod",
+    "queue": "fluxod",
+    "jobname": "{rule}.{wildcards}",
+    "procs": 1,
+    "pmem": "1GB",
+    "walltime": "12:00:00",
+    "email": "uniqname@umich.edu",
+    "mailon": "a",
+    "jobout": "oe",
+    "outdir": "logfiles/"
+}
