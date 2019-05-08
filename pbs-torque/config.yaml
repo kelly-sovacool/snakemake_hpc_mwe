@@ -1,4 +1,4 @@
-cluster: "pbs-torque/pbs-submit.py -N {cluster.jobname} -A {cluster.account} -q {cluster.queue} -l qos=flux,procs={cluster.procs},pmem={cluster.pmem},walltime={cluster.walltime} -M {cluster.email} -m {cluster.mailon} -j {cluster.jobout} -V -o {cluster.outdir} "
+cluster: "pbs-torque/pbs-submit.py -N {cluster.jobname} -A {cluster.account} -q {cluster.queue} -l qos={cluster.qos},procs={cluster.procs},pmem={cluster.pmem},walltime={cluster.walltime} -M {cluster.email} -m {cluster.mailon} -j {cluster.jobout} -V -o {cluster.outdir} "
 cluster-status: "pbs-status.py"
 jobscript: "pbs-jobscript.sh"
 jobs: 5000

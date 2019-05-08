@@ -1,6 +1,7 @@
 "__default__": {
     "account": "pschloss_fluxod",
     "queue": "fluxod",
+	"qos":"flux",
     "jobname": "{rule}.{wildcards}",
     "procs": 1,
     "pmem": "1GB",
