@@ -1,4 +1,4 @@
-samples = glob_wildcards("data/sample_{sample}.txt")
+samples, = glob_wildcards("data/sample_{sample}.txt")
 
 rule targets:
 	input:
@@ -10,4 +10,4 @@ rule copy:
 	output:
 		"results/result_{sample}.txt"
 	shell:
-		"cp {input} {output}
+		"cp {input} {output}"
