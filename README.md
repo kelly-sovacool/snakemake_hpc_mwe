@@ -1,10 +1,14 @@
 # snakemake_hpc_mwe
+A minimal working example of using Snakemake on the HPC.
+
+This example uses the pbs-torque profile, but can be modified to use slurm instead.
 
 ## Usage
 
 1. Edit `cluster.json`
 	- Add your email.
-	- Change default parameters for jobs, e.g. walltime, memory, etc.
+	- Change the default job parameters.
+		- e.g. walltime, memory, etc.
 		- These can be overriden by individual rules in the Snakemake file.
 
 1. Edit `submit.pbs`
@@ -22,3 +26,8 @@
 	qsub submit.pbs
 	```
 	From this job, snakemake submits all of your other jobs.
+
+## Further reading
+
+Snakemake documentation: https://snakemake.readthedocs.io/en/stable/index.html
+Snakemake configuration profiles: https://github.com/Snakemake-Profiles/doc
