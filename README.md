@@ -3,6 +3,10 @@ A minimal working example of using Snakemake on the HPC.
 
 This example uses the pbs-torque profile, but can be modified to use slurm instead.
 
+# Dependencies
+
+You need snakemake installed on a high performance computing cluster running either the pbs or slurm job scheduler. I recommend [installing snakemake with conda](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and creating a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to manage your project's dependencies.
+
 ## Usage
 
 1. Edit `cluster.json`
