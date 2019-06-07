@@ -5,4 +5,4 @@ jobs: 5000
 immediate-submit: False
 verbose: true
 notemp: true
-cluster-config: "cluster.json"
+cluster-config: "cluster_pbs.json"
