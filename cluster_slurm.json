@@ -1,0 +1,13 @@
+"__default__": {
+    "account": "training",
+	"partition": "standard",
+    "job-name": "{rule}.{wildcards}",
+    "nodes": 1,
+	"ntasks-per-node": 1,
+	"cpus-per-task": 1,
+    "mem-per-cpu": "100MB",
+    "time": "1:00",
+    "mail-user": "uniqname@umich.edu",
+    "mail-type": "FAIL",
+    "output": "logfiles/{rule}.{wildcards}.log"
+}

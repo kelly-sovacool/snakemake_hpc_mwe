@@ -13,8 +13,8 @@ from snakemake.utils import read_job_properties
 ##############################
 def _get_default_partition():
     """Retrieve default partition for cluster"""
-    if "training":
-        return "training"
+    if "standard":
+        return "standard"
     cmd = "sinfo -O \"partition\""
     res = subprocess.run(cmd, check=True, shell=True,
                          stdout=subprocess.PIPE)
@@ -124,7 +124,7 @@ slurm_parser.add_argument(
     "-D", "--workdir", help="set working directory for batch script")
 slurm_parser.add_argument(
     "-e", "--error", help="file for batch script's standard error",
-    default="logfiles/" if "logfiles/" else None)
+    default="" if "" else None)
 slurm_parser.add_argument(
     "-J", "--job-name", help="name of job")
 slurm_parser.add_argument(
@@ -138,7 +138,7 @@ slurm_parser.add_argument(
     type=int)
 slurm_parser.add_argument(
     "-o", "--output", help="file for batch script's standard output",
-    default="results/" if "results/" else None)
+    default="" if "" else None)
 slurm_parser.add_argument(
     "-p", "--partition", help="partition requested",
     default=_get_default_partition(), type=str)
