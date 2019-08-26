@@ -9,7 +9,7 @@ Rather than using the modules provided on our University's HPC, I prefer to use 
 
 ## Conda
 
-Download the latest installer for [Anaconda](https://www.anaconda.com/distribution/#download-section) (includes everything) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (includes only the minimum, but faster to install).
+Download the latest installer for [Anaconda](https://www.anaconda.com/distribution/#download-section) (includes everything) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended because it includes only the minimum and is faster to install).
 
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
