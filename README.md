@@ -1,7 +1,7 @@
 # snakemake_hpc_mwe
 A minimal working example of using Snakemake on an HPC running PBS-torque or SLURM.
 
-# Dependencies
+## Dependencies
 
 You need Python3 and Snakemake installed on a high performance computing cluster running either the PBS-torque or SLURM job scheduler.
 
