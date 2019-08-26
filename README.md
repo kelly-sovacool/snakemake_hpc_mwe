@@ -32,7 +32,7 @@ Example environment files:
 - UMich Flux: `config/env.smk-flux.yml`
 - UMich Great Lakes: `config/env.smk-gl.yml`
 
-## Activation
+### Activation
 
 Before submitting jobs for your project, activate the environment:
 ```
