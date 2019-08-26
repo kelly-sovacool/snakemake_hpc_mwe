@@ -7,14 +7,14 @@ You need Python3 and Snakemake installed on a high performance computing cluster
 
 Rather than using the modules provided on our University's HPC, I prefer to use conda to manage my software dependencies.
 
-## Conda
+### Conda
 
 Download the latest installer for [Anaconda](https://www.anaconda.com/distribution/#download-section) (includes everything) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended because it includes only the minimum and is faster to install).
 
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-### Environments
+#### Environments
 
 I like to create a separate conda environment for each of my projects. Example for this tutorial:
 
@@ -32,7 +32,7 @@ Example environment files:
 - UMich Flux: `config/env.smk-flux.yml`
 - UMich Great Lakes: `config/env.smk-gl.yml`
 
-### Activation
+#### Activation
 
 Before submitting jobs for your project, activate the environment:
 ```
