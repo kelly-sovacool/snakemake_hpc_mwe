@@ -1,13 +1,17 @@
 "__default__": {
-    "account": "your_account",
+    "account_pbs": "your_pbs_account",
+    "account_slurm": "your_slurm_account",
     "queue": "fluxod",
 	"qos":"flux",
+    "partition": "standard",
     "jobname": "{rule}.{wildcards}",
+    "nodes": 1,
     "procs": 1,
-    "pmem": "1GB",
+    "pmem": "1000MB",
     "walltime": "1:00:00",
     "email": "uniqname@umich.edu",
     "mailon": "a",
+    "mail_type": "FAIL",
     "jobout": "oe",
-    "outdir": "logfiles/"
+    "outdir": "logfiles/hpc/"
 }
