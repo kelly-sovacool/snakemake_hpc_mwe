@@ -1,5 +1,5 @@
 "__default__": {
-    "account": "pschloss_fluxod",
+    "account": "your_account",
     "queue": "fluxod",
 	"qos":"flux",
     "jobname": "{rule}.{wildcards}",
