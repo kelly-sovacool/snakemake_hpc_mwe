@@ -46,14 +46,13 @@ See the [conda user guide](https://docs.conda.io/projects/conda/en/latest/user-g
 
 ## Usage
 
-1. Edit `config/cluster.json`
-	- Add your email.
-	- Change the default job parameters.
-		- e.g. walltime, memory, etc.
+1. Edit `config/cluster.json` with:
+	- Your email
+	- The default job parameters
+		- e.g. walltime, nodes, memory, etc.
 		- These can be overriden by individual rules in the Snakemake file.
 
-1. Edit `code/submit-pbs.sh` and/or `code/submit-slurm.sh`
-	Add or edit:
+1. Edit `code/submit-pbs.sh` and/or `code/submit-slurm.sh` with:
 	- Your email
 	- HPC account
 	- Queue/partition
@@ -65,6 +64,7 @@ See the [conda user guide](https://docs.conda.io/projects/conda/en/latest/user-g
 	to make sure your workflow doesn't have any syntax errors.
 
 1. Submit the workflow
+
 	With PBS-torque:
 	```
 	qsub code/submit-pbs.sh
