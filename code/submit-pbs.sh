@@ -7,7 +7,7 @@
 #PBS -m abe                ## when to send email a=abort b=job begin e=job end
 #PBS -j oe                 ## send output and error information to the email listed above
 #PBS -V                 ## IMPORTANT always use this. send environment setup to node job will be run on
-#PBS -o logfiles/  ## write output/error logfile(s) to this dir
+#PBS -o log/hpc  ## write output/error logfile(s) to this dir
 #
 #  Include the next three lines always
 if [ "x${PBS_NODEFILE}" != "x" ] ; then

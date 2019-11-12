@@ -13,5 +13,9 @@
     "mailon": "a",
     "mail_type": "FAIL",
     "jobout": "oe",
-    "outdir": "logfiles/hpc/"
+    "outdir": "log/hpc/"
+}
+"sleep": {
+    "walltime": "24:00:00",
+    "pmem": "2GB"
 }

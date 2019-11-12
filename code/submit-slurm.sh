@@ -34,4 +34,7 @@
 #SBATCH --mail-user=your_email
 #SBATCH --mail-type=BEGIN,END
 
+#### where to write log files
+
+#SBATCH --output=log/hpc/
 snakemake --profile config/slurm --latency-wait 20 -s code/myworkflow.smk
