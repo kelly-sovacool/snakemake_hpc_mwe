@@ -74,7 +74,7 @@ See the [conda user guide](https://docs.conda.io/projects/conda/en/latest/user-g
 	sbatch code/submit-slurm.sh
 	```
 
-	From this job, snakemake submits all of your other jobs.
+	From this job, snakemake submits all of your other jobs using the parameters in `config/cluster.json`.
 
 ## Further reading
 
