@@ -7,7 +7,7 @@
     "jobname": "{rule}.{wildcards}",
     "nodes": 1,
     "procs": 1,
-    "pmem": "1000MB",
+    "pmem": "50MB",
     "walltime": "1:00:00",
     "email": "your_email",
     "mailon": "a",
@@ -17,7 +17,6 @@
     "outfile": "log/hpc/{rule}.{wildcards}.out"
     },
 "sleep": {
-    "walltime": "24:00:00",
-    "pmem": "2GB"
+    "walltime": "24:00:00"
     }
 }
