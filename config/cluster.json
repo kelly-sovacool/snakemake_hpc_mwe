@@ -1,4 +1,4 @@
-"__default__": {
+{"__default__": {
     "account_pbs": "your_pbs_account",
     "account_slurm": "your_slurm_account",
     "queue": "fluxod",
@@ -9,13 +9,15 @@
     "procs": 1,
     "pmem": "1000MB",
     "walltime": "1:00:00",
-    "email": "uniqname@umich.edu",
+    "email": "your_email",
     "mailon": "a",
     "mail_type": "FAIL",
     "jobout": "oe",
-    "outdir": "log/hpc/"
-}
+    "outdir": "log/hpc/",
+    "outfile": "log/hpc/{rule}.{wildcards}.out"
+    },
 "sleep": {
     "walltime": "24:00:00",
     "pmem": "2GB"
+    }
 }

@@ -6,7 +6,7 @@
 #### #### ####  These are the most frequently changing options
 
 ####  Job name
-#SBATCH --job-name=myworkflow
+#SBATCH --job-name=mwe
 
 ####  Request resources here
 ####    These are typically, number of processors, amount of memory,

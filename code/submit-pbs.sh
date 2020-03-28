@@ -1,4 +1,4 @@
-#PBS -N myworkflow ## Name of the job for the scheduler
+#PBS -N mwe ## Name of the job for the scheduler
 #PBS -A your_account ## name of the allocation (who is paying for the compute time)
 #PBS -q fluxod            ## name of the queue to submit the job to. Will match the suffix on allocation name
 #PBS -l nodes=1:ppn=1,pmem=1000MB,walltime=10:00    ## resource reservation  max walltime = 672 hours

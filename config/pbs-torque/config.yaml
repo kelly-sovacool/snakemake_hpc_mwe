@@ -1,5 +1,5 @@
 cluster: "qsub -N {cluster.jobname} -A {cluster.account_pbs} -q {cluster.queue} -M {cluster.email} -m {cluster.mailon} -l qos={cluster.qos},nodes={cluster.nodes}:ppn={cluster.procs},pmem={cluster.pmem},walltime={cluster.walltime} -j {cluster.jobout} -V -o {cluster.outdir} "
-cluster-config: "cluster.json"
+cluster-config: "config/cluster.json"
 jobs: 4999
 immediate-submit: False
 verbose: true
