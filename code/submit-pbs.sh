@@ -20,4 +20,4 @@ cd $PBS_O_WORKDIR
 echo $PBS_O_WORKDIR
 
 #  Put your job commands after this line. Load all required modules before submitting this script.
-snakemake --profile config/pbs-torque --latency-wait 20 -s code/myworkflow.smk
+snakemake --profile config/pbs-torque --latency-wait 90 -s code/myworkflow.smk
